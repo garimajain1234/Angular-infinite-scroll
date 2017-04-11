@@ -62,8 +62,8 @@ body {
   width:700px;
   margin: auto;
 }
-table > tbody > tr > td {
-  float: left;
+table > tbody > tr > td:nth-child(2) {
+  max-width: 200px;
 }
 
 /* Responsive: Portrait tablets and up */
